@@ -1,0 +1,18 @@
+package com.facturia.security.application.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import java.util.List;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class RoleWithPermissionsDTO {
+
+    private String id;
+    private List<String> permisos;
+
+}
