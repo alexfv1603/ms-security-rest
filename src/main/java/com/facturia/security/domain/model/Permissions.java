@@ -2,7 +2,7 @@ package com.facturia.security.domain.model;
 
 import lombok.Data;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.List;
 
 @Data

@@ -3,7 +3,7 @@ package com.facturia.security.domain.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Getter
 @Setter
